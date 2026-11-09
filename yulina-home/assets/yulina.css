@@ -7,3 +7,5 @@ html,body{margin:0;padding:0;background:#0B0D12}html[data-theme="light"],html[da
 .yulina-home .yh-conf-sub:has(.yh-conf-sel:empty){display:none!important}
 .yulina-home .yh-conf{grid-template-columns:minmax(0,291px) minmax(0,1fr) minmax(0,291px)!important}
 @media (max-width:900px){.yulina-home .yh-conf{grid-template-columns:1fr!important}}
+
+.yulina-home .yh-proj-shots--one img.yh-shot-full{aspect-ratio:auto!important;object-fit:contain!important;height:auto!important}
