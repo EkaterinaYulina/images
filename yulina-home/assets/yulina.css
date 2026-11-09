@@ -34,3 +34,6 @@ html[data-theme="light"] .yulina-home .yh-rec-card,html[data-theme="light"] .yul
 /* логотип клиента в истории (Mirra): цвет берётся из темы, поэтому читается и в тёмной, и в светлой */
 .yulina-home .yh-proj-shots--logo{display:flex;align-items:center;justify-content:center;min-height:150px;margin:0 0 22px;border-radius:12px;background:var(--yh-card)}
 .yulina-home .yh-brand-logo{display:block;width:min(260px,56%);height:auto;color:var(--yh-text)}
+.yulina-home .yh-lk-ic--brand{display:flex;align-items:center;justify-content:center;width:100%;height:100%}
+.yulina-home .yh-brand-logo--th{width:62%;max-width:120px;height:auto;color:var(--yh-text)}
+.yulina-home .yh-lk-ic--brand .yh-brand-logo--th{width:64px!important;max-width:64px!important;height:auto!important}
