@@ -55,3 +55,5 @@ html[data-theme="light"] .yulina-home .yh-rec-card,html[data-theme="light"] .yul
 /* видео в историях: на всю ширину текста, пропорция 16:9 */
 .yulina-home .yh-proj-video{position:relative;width:100%;aspect-ratio:16/9;margin:22px 0 6px;border-radius:12px;overflow:hidden;background:#0B0D12}
 .yulina-home .yh-proj-video iframe{position:absolute;inset:0;width:100%!important;height:100%!important;border:0;display:block}
+
+.yulina-home .yh-wip-card{overflow:hidden}.yulina-home .yh-wip-media{margin:-30px -28px 14px;aspect-ratio:800/470;background:#11141A;overflow:hidden}.yulina-home .yh-wip-media img,.yulina-home .yh-wip-media video{display:block;width:100%;height:100%;object-fit:cover}@media (max-width:760px){.yulina-home .yh-wip-media{margin:-20px -18px 12px}}
