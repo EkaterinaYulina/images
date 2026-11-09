@@ -59,3 +59,5 @@ html[data-theme="light"] .yulina-home .yh-rec-card,html[data-theme="light"] .yul
 .yulina-home .yh-wip-card{overflow:hidden}.yulina-home .yh-wip-media{margin:-30px -28px 14px;aspect-ratio:800/470;background:#11141A;overflow:hidden}.yulina-home .yh-wip-media img,.yulina-home .yh-wip-media video{display:block;width:100%;height:100%;object-fit:cover}@media (max-width:760px){.yulina-home .yh-wip-media{margin:-20px -18px 12px}}
 
 .yulina-home .yh-proj-meta .yh-mon{display:inline-block;margin-left:10px;padding:2px 10px;border:1px solid var(--yh-border);border-radius:999px;font-size:12px;line-height:1.5;letter-spacing:0;text-transform:none;color:var(--yh-secondary);white-space:nowrap;vertical-align:1px}
+
+@media (min-width:701px){.yulina-home .yh-section{padding-top:clamp(28px,3.2vw,48px)!important;padding-bottom:clamp(28px,3.2vw,48px)!important}.yulina-home #yh-projects{padding-top:16px!important}.yulina-home #yh-contact.yh-section{padding-top:clamp(28px,3.2vw,48px)!important;padding-bottom:clamp(48px,5vw,72px)!important}}
