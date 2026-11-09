@@ -19,3 +19,10 @@ html,body{margin:0;padding:0;background:#0B0D12}html[data-theme="light"],html[da
 @media (min-width:901px){
 .yulina-home .yh-rec-grid{margin-right:calc(50% - 50vw)!important;padding-right:calc(50vw - 50%)!important;scroll-padding-left:2px}
 }
+
+/* ссылки-карточки (новость, презентация и т.п.): без рамок */
+.yulina-home a.yh-lk{border:0!important;background:transparent!important;box-shadow:none!important;padding:10px 10px 10px 0!important;border-radius:0!important}
+.yulina-home a.yh-lk:hover,.yulina-home a.yh-lk:focus-visible{border:0!important;transform:none}
+.yulina-home .yh-lk-th{border:0!important}
+.yulina-home .yh-lk-t{text-decoration-color:transparent!important;transition:text-decoration-color .2s}
+.yulina-home a.yh-lk:hover .yh-lk-t,.yulina-home a.yh-lk:focus-visible .yh-lk-t{text-decoration-color:var(--yh-accent)!important}
