@@ -26,3 +26,7 @@ html,body{margin:0;padding:0;background:#0B0D12}html[data-theme="light"],html[da
 .yulina-home .yh-lk-th{border:0!important}
 .yulina-home .yh-lk-t{text-decoration-color:transparent!important;transition:text-decoration-color .2s}
 .yulina-home a.yh-lk:hover .yh-lk-t,.yulina-home a.yh-lk:focus-visible .yh-lk-t{text-decoration-color:var(--yh-accent)!important}
+
+/* светлая тема: плашки (длинные истории, «В работе», отзывы) светлее, но не белые */
+html[data-theme="light"] .yulina-home{--yh-card:#F7FAF9}
+html[data-theme="light"] .yulina-home .yh-rec-card,html[data-theme="light"] .yulina-home a.yh-case,html[data-theme="light"] .yulina-home .yh-wip-card{background-image:none!important;background-color:var(--yh-card)!important}
