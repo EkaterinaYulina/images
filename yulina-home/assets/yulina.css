@@ -37,3 +37,10 @@ html[data-theme="light"] .yulina-home .yh-rec-card,html[data-theme="light"] .yul
 .yulina-home .yh-lk-ic--brand{display:flex;align-items:center;justify-content:center;width:100%;height:100%}
 .yulina-home .yh-brand-logo--th{width:62%;max-width:120px;height:auto;color:var(--yh-text)}
 .yulina-home .yh-lk-ic--brand .yh-brand-logo--th{width:64px!important;max-width:64px!important;height:auto!important}
+
+/* миниатюра презентации: название события на плашке */
+.yulina-home .yh-lk-ic--slide{display:flex;align-items:center;justify-content:center;width:100%;height:100%}
+.yulina-home .yh-lk-slide{display:flex;flex-direction:column;gap:4px;align-items:flex-start;padding:0 14px;width:100%;box-sizing:border-box;font-family:var(--yh-font);color:var(--yh-text);text-align:left}
+.yulina-home .yh-lk-slide b{font-size:17px;line-height:1.1;font-weight:800;letter-spacing:-.01em;background:var(--yh-grad-text);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;padding-bottom:.1em}
+.yulina-home .yh-lk-slide em{font-style:normal;font-size:11px;line-height:1.2;color:var(--yh-secondary)}
+.yulina-home .yh-lk-ic--slide,.yulina-home .yh-lk-slide b{font-style:normal}
