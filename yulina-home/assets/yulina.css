@@ -49,3 +49,4 @@ html[data-theme="light"] .yulina-home .yh-rec-card,html[data-theme="light"] .yul
 @media (min-width:901px){
 .yulina-home .yh-rec-grid{margin-left:calc(50% - 50vw)!important;padding-left:calc(50vw - 50%)!important}
 }
+.yulina-home .yh-proj-shots--one video.yh-shot-video{display:block;width:100%;height:auto;aspect-ratio:7/4;border-radius:10px;border:1px solid var(--yh-border);background:#11141A}
