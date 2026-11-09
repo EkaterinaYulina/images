@@ -208,3 +208,5 @@ requestAnimationFrame(tick);
   }
   requestAnimationFrame(tick);
 })();
+
+;(function(){var g=document.querySelector('.yulina-home .yh-rec-grid');if(!g)return;function s(){var l=g.parentElement.getBoundingClientRect().left;g.style.scrollPaddingLeft=(window.innerWidth>900?Math.max(0,l):2)+'px'}s();window.addEventListener('resize',s);window.addEventListener('load',function(){s();g.scrollLeft=0})})();

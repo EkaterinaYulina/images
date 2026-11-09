@@ -44,3 +44,8 @@ html[data-theme="light"] .yulina-home .yh-rec-card,html[data-theme="light"] .yul
 .yulina-home .yh-lk-slide b{font-size:17px;line-height:1.1;font-weight:800;letter-spacing:-.01em;background:var(--yh-grad-text);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;padding-bottom:.1em}
 .yulina-home .yh-lk-slide em{font-style:normal;font-size:11px;line-height:1.2;color:var(--yh-secondary)}
 .yulina-home .yh-lk-ic--slide,.yulina-home .yh-lk-slide b{font-style:normal}
+
+/* отзывы: лента выходит за контейнер и слева тоже — карточки при прокрутке не обрезаются у левого края */
+@media (min-width:901px){
+.yulina-home .yh-rec-grid{margin-left:calc(50% - 50vw)!important;padding-left:calc(50vw - 50%)!important}
+}
