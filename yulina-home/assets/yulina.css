@@ -14,3 +14,8 @@ html,body{margin:0;padding:0;background:#0B0D12}html[data-theme="light"],html[da
 .yulina-home .yh-bt-big{line-height:1.12!important;padding-bottom:.1em!important;margin-bottom:-.1em!important;overflow:visible!important}
 .yulina-home .yh-bt-big .yh-ch{padding-bottom:.12em!important;margin-bottom:-.12em!important;overflow:visible!important}
 .yulina-home .yh-cx .yh-cx-big{line-height:1.12!important;padding-bottom:.1em!important;margin-bottom:-.1em!important}
+
+/* отзывы: лента выходит за контейнер до края экрана, карточки не обрезаются по краю контейнера */
+@media (min-width:901px){
+.yulina-home .yh-rec-grid{margin-right:calc(50% - 50vw)!important;padding-right:calc(50vw - 50%)!important;scroll-padding-left:2px}
+}
