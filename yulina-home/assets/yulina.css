@@ -64,3 +64,8 @@ html[data-theme="light"] .yulina-home .yh-rec-card,html[data-theme="light"] .yul
 
 @media (max-width:1023px){.yulina-home{position:relative}.yulina-home .bm-theme-switch,.bm-theme-switch{position:absolute!important;top:76px!important;right:16px!important}}
 .yulina-home video::-webkit-media-controls,.yulina-home video::-webkit-media-controls-start-playback-button{display:none!important;-webkit-appearance:none}
+
+.yulina-home .yh-story-list .yh-observe,.yulina-home .yh-wip-grid .yh-observe,.yulina-home .yh-rec-grid .yh-observe{opacity:1!important;transform:none!important;transition:none!important}
+.yulina-home .yh-story-list>a.yh-case img,.yulina-home .yh-story-list .yh-shot img{height:auto;max-width:100%}
+@media (max-width:900px){.yulina-home .yh-story-list{scroll-snap-type:x proximity!important;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;touch-action:pan-x pan-y}.yulina-home .yh-wip-grid,.yulina-home .yh-rec-grid{overscroll-behavior-x:contain;touch-action:pan-x pan-y}}
+@media (hover:none){.yulina-home a.yh-case:hover,.yh-case:hover{transform:none!important;box-shadow:inherit}.yulina-home a.yh-case:hover .yh-story-cta{transform:none}}

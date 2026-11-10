@@ -96,7 +96,7 @@
     if(was) was.classList.add('is-current'); box.style.minHeight=mx+'px';
   }
   box.classList.add('is-js'); render(); fit();
-  var rt; window.addEventListener('resize',function(){clearTimeout(rt); rt=setTimeout(fit,150);});
+  var rt,lw=window.innerWidth; window.addEventListener('resize',function(){if(window.innerWidth===lw)return; lw=window.innerWidth; clearTimeout(rt); rt=setTimeout(fit,150);});
   window.addEventListener('load',function(){fit();});
 })();
 
