@@ -123,3 +123,4 @@ html[data-theme="light"] .yulina-home a.yh-case,html[data-theme="light"] .yulina
 .yulina-home .yh-story-list>a.yh-case .yh-story-shots .yh-shot img{max-height:calc(232px - 32px)!important}
 }
 @media (max-width:700px){.yulina-home .yh-story-list>a.yh-case .yh-story-shots{justify-content:flex-start!important}}
+@media (max-width:700px){.yulina-home .yh-story-list>a.yh-case .yh-story-shots{justify-content:center!important;align-items:center!important}.yulina-home .yh-story-list>a.yh-case .yh-story-shots .yh-shot{width:100%!important}}
