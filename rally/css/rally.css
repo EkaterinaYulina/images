@@ -416,7 +416,7 @@ html:has(.film),html:has(.film) body{margin:0!important;padding:0!important;back
 .st.stp .st-in:has(.chf){max-width:none!important;width:100%!important;padding:0!important}
 .hero2{display:flex!important;flex-direction:column!important;align-items:stretch!important;justify-content:flex-start!important;padding:72px 0 0!important;min-height:100svh}
 .hero2 .hbg{background:url(https://cdn.jsdelivr.net/gh/EkaterinaYulina/images@c7fbb41f06dac6df83caf7ce2ecca8f667754c41/rally/assets/hero/bg37.webp) center/cover!important}.film section.st,.film section.px,.film section.hero2,.film .snd-stg{background:transparent!important}
-.film{background:transparent!important}html[data-theme="light"] .film,.film:has(.bm-theme-checkbox:checked){background:var(--bm-bg)!important}.hbg{-webkit-mask-image:linear-gradient(#000 calc(100% - 160px),transparent);mask-image:linear-gradient(#000 calc(100% - 160px),transparent)}
+.film{background:transparent!important}html:has(.film){color-scheme:dark}.film{color-scheme:dark}html[data-theme="light"]:has(.film),html[data-theme="light"] .film,.film:has(.bm-theme-checkbox:checked){color-scheme:light}html[data-theme="light"] .film,.film:has(.bm-theme-checkbox:checked){background:var(--bm-bg)!important}.hbg{-webkit-mask-image:linear-gradient(#000 calc(100% - 160px),transparent);mask-image:linear-gradient(#000 calc(100% - 160px),transparent)}
 .hero2 .hbg::before{content:"";position:absolute;inset:0;background:#0b0d12;opacity:.58}
 .hero2 .hbg::after{display:block!important;content:"";position:absolute;inset:0;background:linear-gradient(#0b0d12 0,rgba(11,13,18,.2) 40%,#0b0d12 85%)!important}
 .hero2 .cap.hero{width:min(1120px,92vw)!important;padding:0 !important}
