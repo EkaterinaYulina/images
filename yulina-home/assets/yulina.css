@@ -124,3 +124,4 @@ html[data-theme="light"] .yulina-home a.yh-case,html[data-theme="light"] .yulina
 }
 @media (max-width:700px){.yulina-home .yh-story-list>a.yh-case .yh-story-shots{justify-content:flex-start!important}}
 @media (max-width:700px){.yulina-home .yh-story-list>a.yh-case .yh-story-shots{justify-content:center!important;align-items:center!important}.yulina-home .yh-story-list>a.yh-case .yh-story-shots .yh-shot{width:100%!important}}
+.yulina-home .yh-proj-meta .yh-mon{display:none!important}
