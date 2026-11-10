@@ -93,3 +93,14 @@ html[data-theme="light"] .yulina-home .yh-rec-card,html[data-theme="light"] .yul
 .yulina-home .yh-conf-mid .yh-stories.is-js .yh-proj.is-current{padding-bottom:30px!important}
 }
 @media (max-width:700px){.yulina-home .yh-story-list>a.yh-case .yh-story-shots .yh-shot{flex:none!important}.yulina-home .yh-story-list>a.yh-case .yh-story-shots{gap:14px;padding:18px 16px}}
+
+/* карточки кейсов на мобильном: одинаковая высота панели с картинкой (по образцу «Онбординг в зрелом enterprise») */
+@media (max-width:700px){
+.yulina-home .yh-story-list>a.yh-case .yh-story-shots{flex:none!important;aspect-ratio:1.29/1!important;height:auto!important;justify-content:center;overflow:hidden}
+.yulina-home .yh-story-list>a.yh-case .yh-story-shots .yh-shot{max-height:100%}
+.yulina-home .yh-story-list>a.yh-case .yh-story-shots .yh-shot img{max-height:calc(100% - 28px);width:100%;height:auto;object-fit:contain}
+}
+/* обводка карточек: заметная и одинаковая во всех темах */
+html[data-theme="light"] .yulina-home a.yh-case,html[data-theme="light"] .yulina-home .yh-wip-card,html[data-theme="light"] .yulina-home .yh-rec-card,html[data-theme="light"] .yulina-home .yh-proj,html[data-theme="light"] .yulina-home .yh-conf{border:1px solid #CFDCD8!important}
+/* переключатель темы на мобильном: всегда виден, в правом нижнем углу, не мешает навигации */
+@media (max-width:1023px){.yulina-home .bm-theme-switch,.bm-theme-switch{position:fixed!important;top:auto!important;bottom:calc(20px + env(safe-area-inset-bottom))!important;right:max(14px,env(safe-area-inset-right))!important;z-index:60}.bm-theme-btn{width:46px!important;height:46px!important}}
