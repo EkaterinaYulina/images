@@ -98,6 +98,7 @@
   box.classList.add('is-js'); render(); fit();
   var rt,lw=window.innerWidth; window.addEventListener('resize',function(){if(window.innerWidth===lw)return; lw=window.innerWidth; clearTimeout(rt); rt=setTimeout(fit,150);});
   window.addEventListener('load',function(){fit();});
+  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(function(){fit();});setTimeout(fit,1500);setTimeout(fit,4000);
 })();
 
 

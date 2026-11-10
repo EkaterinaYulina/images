@@ -83,3 +83,13 @@ html[data-theme="light"] .yulina-home .yh-rec-card,html[data-theme="light"] .yul
 }
 @media (max-width:700px){.yulina-home .yh-rec-author{margin-left:4px!important}.yulina-home .yh-story-list{align-items:flex-start!important}}
 @media (max-width:700px){.yulina-home .yh-rec-grid{margin-left:-20px!important;margin-right:-20px!important;padding-left:20px!important;padding-right:20px!important;scroll-padding-left:20px!important}}
+
+@media (max-width:700px){
+.yulina-home .yh-story-list{align-items:stretch!important}
+.yulina-home .yh-story-list>a.yh-case{display:flex!important;flex-direction:column!important}
+.yulina-home .yh-story-list>a.yh-case .yh-story-shots{order:-1;flex:1 1 auto;display:flex!important;flex-direction:column;justify-content:center;aspect-ratio:auto!important;min-height:0!important;border-left:0!important;border-bottom:1px solid var(--yh-edge)}
+.yulina-home .yh-story-list>a.yh-case .yh-story-shots .yh-shot{position:relative!important;left:auto!important;top:auto!important;right:auto!important;bottom:auto!important;width:100%!important;transform:none!important}
+.yulina-home .yh-story-list>a.yh-case .yh-cs-poster{flex:none}
+.yulina-home .yh-conf-mid .yh-stories.is-js .yh-proj.is-current{padding-bottom:30px!important}
+}
+@media (max-width:700px){.yulina-home .yh-story-list>a.yh-case .yh-story-shots .yh-shot{flex:none!important}.yulina-home .yh-story-list>a.yh-case .yh-story-shots{gap:14px;padding:18px 16px}}
