@@ -104,3 +104,8 @@ html[data-theme="light"] .yulina-home .yh-rec-card,html[data-theme="light"] .yul
 html[data-theme="light"] .yulina-home a.yh-case,html[data-theme="light"] .yulina-home .yh-wip-card,html[data-theme="light"] .yulina-home .yh-rec-card,html[data-theme="light"] .yulina-home .yh-proj,html[data-theme="light"] .yulina-home .yh-conf{border:1px solid #CFDCD8!important}
 /* переключатель темы на мобильном: всегда виден, в правом нижнем углу, не мешает навигации */
 @media (max-width:1023px){.yulina-home .bm-theme-switch,.bm-theme-switch{position:fixed!important;top:auto!important;bottom:calc(20px + env(safe-area-inset-bottom))!important;right:max(14px,env(safe-area-inset-right))!important;z-index:60}.bm-theme-btn{width:46px!important;height:46px!important}}
+@media (max-width:700px){
+.yulina-home .yh-story-list>a.yh-case .yh-story-shots{padding:14px 16px 16px!important;justify-content:flex-start!important}
+.yulina-home .yh-story-list>a.yh-case .yh-story-shots .yh-shot{flex:1 1 auto!important;min-height:0;display:flex;flex-direction:column;max-height:none}
+.yulina-home .yh-story-list>a.yh-case .yh-story-shots .yh-shot img{flex:1 1 auto;min-height:0;width:100%;height:100%!important;max-height:none;object-fit:cover!important;object-position:left top!important}
+}
