@@ -69,3 +69,17 @@ html[data-theme="light"] .yulina-home .yh-rec-card,html[data-theme="light"] .yul
 .yulina-home .yh-story-list>a.yh-case img,.yulina-home .yh-story-list .yh-shot img{height:auto;max-width:100%}
 @media (max-width:900px){.yulina-home .yh-story-list{scroll-snap-type:x proximity!important;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;touch-action:pan-x pan-y}.yulina-home .yh-wip-grid,.yulina-home .yh-rec-grid{overscroll-behavior-x:contain;touch-action:pan-x pan-y}}
 @media (hover:none){.yulina-home a.yh-case:hover,.yh-case:hover{transform:none!important;box-shadow:inherit}.yulina-home a.yh-case:hover .yh-story-cta{transform:none}}
+
+@media (max-width:700px){
+.yulina-home .yh-cs-rows{grid-template-columns:1fr!important;gap:0!important}
+.yulina-home .yh-cs-row,.yulina-home .yh-cs-row:nth-child(2){border-top:1px solid var(--yh-edge)!important;padding:12px 0!important;align-self:start}
+.yulina-home .yh-cs-row:first-child{border-top:0!important}
+.yulina-home .yh-cs-v{font-size:20px!important;line-height:1.2!important}
+.yulina-home .yh-rec-head{display:block!important}
+.yulina-home .yh-rec-head .yh-rec-nav,.yulina-home .yh-rec-nav{width:100%;margin:14px 0 0!important}
+.yulina-home .yh-rec-nav .yh-rec-count{margin-right:auto}
+.yulina-home .yh-rec-nav .yh-conf-btn{width:40px;height:40px;border-radius:12px}
+.yulina-home .yh-rec-nav .yh-conf-btn:disabled{opacity:.5}
+}
+@media (max-width:700px){.yulina-home .yh-rec-author{margin-left:4px!important}.yulina-home .yh-story-list{align-items:flex-start!important}}
+@media (max-width:700px){.yulina-home .yh-rec-grid{margin-left:-20px!important;margin-right:-20px!important;padding-left:20px!important;padding-right:20px!important;scroll-padding-left:20px!important}}
